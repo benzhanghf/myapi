@@ -7,6 +7,7 @@ local testing, if setup localhost
 GET
 
 http://localhost/api/property
+
 http://localhost/api/property/{id}
 
 POST
