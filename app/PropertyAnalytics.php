@@ -3,7 +3,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Property extends Model
+class PropertyAnalytics extends Model
 {
     /**
      * The table associated with the model.

@@ -21,4 +21,13 @@ class Property extends Model
 
     protected $fillable = ['guid', 'suburb', 'state', 'country'];
 
+    public static function getRequiredAttributes()
+    {
+        return ['guid', 'suburb', 'state', 'country'];
+    }
+
+    public function analytics()
+    {
+        return $this->hasMany('PropertyAnalytics');
+    }
 }
